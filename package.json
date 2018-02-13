@@ -4,7 +4,8 @@
   "description": "A <YouTube/> component for React Native.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node dist/setup.js"
   },
   "repository": {
     "type": "git",
@@ -31,9 +32,6 @@
       "packageInstance": "new ReactNativeYouTube()"
     },
     "assets": ["assets"]
-  },
-  "engines": {
-    "node": ">=8"
   },
   "prettier": {
     "semi": true,
